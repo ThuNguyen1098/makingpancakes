@@ -1,0 +1,288 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Winkle;
+  src: url(Winkle-Regular.ttf);
+}
+
+body {
+  background-image: url(background.png);
+  background-position: center;
+  background-size: cover;
+}
+p {
+  font-family: Winkle;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Index */
+.fullpancakes {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+.fullpancakes img {
+  width: 100%;
+}
+.instructions {
+  padding: 20px;
+  padding-bottom: 40px;
+  font-size: 72px;
+  text-align: center;
+  margin: auto;
+}
+.maintitle {
+  display: inline;
+}
+.direction p {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: black; }
+  50% { color: #009eff; }
+  100% { color: black; }
+}
+
+/* Choose the bowl you like */
+.choosebowl {
+  height: 80vh;
+}
+
+#yellowbowl .cls-1{fill:#f0d4ac;}
+#yellowbowl .cls-2{fill:#f5eebb;}
+#yellowbowl .cls-3{fill:#fee8ac; opacity: 0;transition: all 0.2s;}
+
+#pinkbowl .cls-1{fill:#ed97a8;}
+#pinkbowl .cls-2{fill:#deb0d0;}
+#pinkbowl .cls-3{fill:#fee8ac; opacity: 0;transition: all 0.2s;}
+
+#greenbowl .cls-1{fill:#abd5c3;}
+#greenbowl .cls-2{fill:#cbdeb9;}
+#greenbowl .cls-3{fill:#fee8ac; opacity: 0;transition: all 0.2s;}
+
+#bluebowl .cls-1{fill:#aec1da;}
+#bluebowl .cls-2{fill:#a7d8e9;}
+#bluebowl .cls-3{fill:#fee8ac; opacity: 0;transition: all 0.2s;}
+
+.grid-2 {
+  display: flex;
+  flex-wrap:wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.grid-2 div {
+  flex: 50%;
+}
+
+.grid-2 svg {
+  width:80%;
+}
+
+.row2 svg {
+  margin-left: 200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Make the pancakes mix */
+.pancakemix {
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.pancakemix div {
+  position: absolute;
+}
+.measuringcup {
+  width: 16%;
+  top: 5%;
+  left: 0;
+}
+.measuringcup sgv {
+  width: 100%;
+}
+#cup_fill .cls-1{fill:#fff; opacity: 0;transition: all 0.2s;}
+#cup_no_fill .cls-2{fill:#a0d6c2;}
+
+.tablespoon {
+  width: 14%;
+  top: 15%;
+  left: 15%;
+}
+.tablespoon sgv {
+  width: 100%;
+}
+#table_spoon .cls-1{fill:#9ec1e2;}
+#table_spoon .cls-2{fill:#f1f6fa;}
+#tablespoon_fill .cls-3{fill: white; opacity: 0;transition: all 0.2s;}
+
+.teaspoon {
+  width: 9%;
+  top: 20%;
+  left: 28%;
+}
+.teaspoon sgv {
+  width: 100%;
+}
+#tea_spoon .cls-1{fill:#9ec1e2;}
+#tea_spoon .cls-2{fill:#f1f6fa;}
+#teaspoon_fill .cls-3{fill: white; opacity: 0;transition: all 0.2s;}
+
+.whisk {
+  width: 30%;
+  top: 35%;
+  left: 0;
+}
+.whisk img {
+  width: 100%;
+}
+
+.bowl {
+  width: 33%;
+  left: 0;
+  bottom: 0;
+}
+.bowl sgv{
+  width: 100%;
+}
+
+.butter {
+  width: 15%;
+  top: 5%;
+  left: 40%;
+}
+.butter img {
+  width: 100%;
+}
+
+.milk {
+  width: 16%;
+  top: 5%;
+  left: 60%;
+}
+.milk img {
+  width: 100%;
+}
+
+.eggs {
+  width: 18%;
+  top: 30%;
+  left: 40%;
+}
+.eggs img {
+  width: 100%;
+}
+
+.flour {
+  width: 20%;
+  bottom: 0;
+  right: 30%;
+}
+.flour img {
+  width: 100%;
+}
+
+.sugar {
+  width: 14%;
+  bottom: 0;
+  right: 12%;
+}
+.sugar img {
+  width: 100%;
+}
+
+.bakingsoda {
+  width: 8%;
+  bottom: 0;
+  right: 0;
+}
+.bakingsoda img {
+  width: 100%;
+}
+
+.followdirection {
+  width: 20%;
+  top: 15%;
+  right: -5%;
+}
+.followdirection p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 150%;
+  color: #009eff;
+}
+
+/* Make pancakes */
+.makingpancakes {
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.makingpancakes div {
+  position: absolute;
+}
+.flip {
+  width: 40%;
+  bottom: 0;
+  right: 0;
+}
+.flip sgv {
+  width: 100%;
+}
+#flip .cls-1{fill:#d8add1;}
+
+.bigspoon {
+  width: 22%;
+  bottom: 20%;
+  right: 0;
+}
+.bigspoon sgv {
+  width: 100%;
+}
+#big_spoon .cls-1{fill:#d8add1;}
+
+.pancakemix_bowl {
+  width: 30%;
+  top: 5%;
+  right: 0;
+}
+.pancakemix_bowl sgv {
+  width: 100%;
+}
+#pinkbowl_mix .cls-1{fill:#ed97a8;}
+#pinkbowl_mix .cls-2{fill:#deb0d0;}
+#pinkbowl_mix .cls-3{fill:#fee8ac;}
+
+.pan_gas {
+  width: 60%;
+  bottom: 0;
+  left: 0;
+}
+.pan_gas sgv {
+  width: 100%;
+}
+
+.plate {
+  width: 55%;
+  top: 5%;
+  left: 0;
+}
+.plates sgv {
+  width: 100%;
+}
+#plate .cls-1{fill:#fea9a4;}
+#plate .cls-2{fill:#bf6964;}
+
